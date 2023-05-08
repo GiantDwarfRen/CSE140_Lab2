@@ -24,10 +24,10 @@ module struct_diag #(parameter NS=60, NH=24, NW = 7)(
         TMen, THen, TDen, AMen, AHen; 
 
 	always_comb begin
-		TMen = Timeset? Minadv : Szero;
-		THen = Timeset? Hrsadv : (Mzero && Szero);
-		AMen = Alarmset && Minadv;
-		AHen = Alarmset && Hrsadv;
+		TMen = (Timeset && ~Alarmset) ? Minadv : Szero;
+		THen = (Timeset && ~Alarmset) ? Hrsadv : (Mzero && Szero);
+		AMen = (~Timeset && Alarmset && Minadv);
+		AHen = (~Timeset && Alarmset && Hrsadv);
 		Min = TMin;
 		Hrs = THrs;
 		Day = TDay;
