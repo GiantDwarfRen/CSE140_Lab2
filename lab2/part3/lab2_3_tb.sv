@@ -21,7 +21,7 @@ module lab2_3_tb #(parameter NS = 60, NH = 24, NW = 7, NM = 12);
 	        Date1disp, Date0disp;
   wire Buzz;
 
-  top_level #(.NS(NS), .NH(NH), .NW(NW), .NM(NM)) top(.*); // (.Reset(Reset),....)
+  struct_diag #(.NS(NS), .NH(NH), .NW(NW), .NM(NM)) top(.*); // (.Reset(Reset),....)
 
   initial begin
 	#  2ns  Reset    = 0;

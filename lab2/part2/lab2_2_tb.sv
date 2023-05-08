@@ -16,7 +16,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
 	        H1disp, H0disp, D0disp;
   wire Buzz;
 
-  top_level #(.NS(NS), .NH(NH), .NW(NW)) top(.*); // (.Reset(Reset),....)
+  struct_diag #(.NS(NS), .NH(NH), .NW(NW)) top(.*); // (.Reset(Reset),....)
 
   initial begin
     $monitor("buzz = %b  at time %t",Buzz,$time);
