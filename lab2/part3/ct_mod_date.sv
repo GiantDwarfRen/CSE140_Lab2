@@ -11,20 +11,12 @@ module ct_mod_date #(parameter X = 31, Y = 30, Z = 28)(
 	logic[4:0] date_of_month = X;
 
 	always_comb
-		case(month)
-			'd1: date_of_month = X;
-			'd3: date_of_month = X;
-			'd5: date_of_month = X;
-			'd7: date_of_month = X;
-			'd8: date_of_month = X;
-			'd10: date_of_month = X;
-			'd12: date_of_month = X;
-			'd4: date_of_month = Y;
-			'd6: date_of_month = Y;
-			'd9: date_of_month = Y;
-			'd11: date_of_month = Y;
-			'd2: date_of_month = Z;
-		endcase
+		if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+			date_of_month = X;
+		else if (month == 4 || month == 6 || month == 9 || month == 11)
+			date_of_month = Y;
+		else 
+			date_of_month = Z;
 
 	always_ff @(posedge clk)
 		ct_out <= next_ct;
