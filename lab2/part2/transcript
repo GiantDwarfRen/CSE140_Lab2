@@ -1,0 +1,422 @@
+# Compile of alarm.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of display_tb.sv was successful.
+# Compile of display_tb_file.sv was successful.
+# Compile of lab2_2_tb.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of struct_diag.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.lab2_2_tb
+# vsim -gui work.lab2_2_tb 
+# Start time: 10:33:31 on May 08,2023
+# Loading sv_std.std
+# Loading work.lab2_2_tb_sv_unit
+# Loading work.lab2_2_tb
+# Loading work.struct_diag
+# Loading work.ct_mod_N
+# Loading work.lcd_int
+# Loading work.alarm
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 11
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 12
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 13
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 14
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 15
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 16
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 17
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 18
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 19
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 20
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 21
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 22
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 23
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 24
+# ** Error (suppressible): (vsim-PLI-3069) $fdisplay : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 31
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 33
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 34
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 35
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 36
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 37
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 38
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 39
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 40
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 41
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 42
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 43
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 44
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 45
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 46
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 47
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 48
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 49
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 50
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 51
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 52
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 53
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 54
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 55
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 56
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 57
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 58
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 59
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 60
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 61
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 62
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 63
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 64
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 65
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 66
+# ** Error (suppressible): (vsim-PLI-3069) $fdisplay : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 67
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 69
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 70
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 71
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 72
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 73
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 74
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 75
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 76
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 77
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 78
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 79
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 80
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 81
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 82
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 83
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 84
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 85
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 86
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 87
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 88
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 89
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 90
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 91
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 92
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 93
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 94
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 95
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 96
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 97
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 98
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 99
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 100
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 101
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 102
+# ** Error (suppressible): (vsim-PLI-3069) $fdisplay : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 103
+# Error loading design
+# End time: 10:33:32 on May 08,2023, Elapsed time: 0:00:01
+# Errors: 85, Warnings: 5
+# Compile of alarm.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of display_tb.sv was successful with warnings.
+# Compile of display_tb_file.sv was successful.
+# Compile of lab2_2_tb.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of struct_diag.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.lab2_2_tb
+# vsim -gui work.lab2_2_tb 
+# Start time: 10:36:06 on May 08,2023
+# Loading sv_std.std
+# Loading work.lab2_2_tb_sv_unit
+# Loading work.lab2_2_tb
+# Loading work.struct_diag
+# Loading work.ct_mod_N
+# Loading work.lcd_int
+# Loading work.alarm
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 11
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 12
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 13
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 14
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 15
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 16
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 17
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 18
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 19
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 20
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 21
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 22
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 23
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 24
+# ** Error (suppressible): (vsim-PLI-3069) $fdisplay : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 31
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 33
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 34
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 35
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 36
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 37
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 38
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 39
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 40
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 41
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 42
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 43
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 44
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 45
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 46
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 47
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 48
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 49
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 50
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 51
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 52
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 53
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 54
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 55
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 56
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 57
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 58
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 59
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 60
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 61
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 62
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 63
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 64
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 65
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 66
+# ** Error (suppressible): (vsim-PLI-3069) $fdisplay : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 67
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 69
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 70
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 71
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 72
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 73
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 74
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 75
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 76
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 77
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 78
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 79
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 80
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 81
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 82
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 83
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 84
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 85
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 86
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 87
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 88
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 89
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 90
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 91
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 92
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 93
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 94
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 95
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 96
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 97
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 98
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 99
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 100
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 101
+# ** Error (suppressible): (vsim-PLI-3069) $fwrite : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 102
+# ** Error (suppressible): (vsim-PLI-3069) $fdisplay : Argument number 1 is invalid.
+#    Time: 0 ps  Iteration: 0  Region: /lab2_2_tb_sv_unit::display_tb File: display_tb.sv Line: 103
+# Error loading design
+# End time: 10:36:06 on May 08,2023, Elapsed time: 0:00:00
+# Errors: 85, Warnings: 2
+# Compile of alarm.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of display_tb.sv was successful.
+# Compile of display_tb_file.sv was successful.
+# Compile of lab2_2_tb.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of struct_diag.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.lab2_2_tb
+# vsim -gui work.lab2_2_tb 
+# Start time: 10:38:29 on May 08,2023
+# Loading sv_std.std
+# Loading work.lab2_2_tb_sv_unit
+# Loading work.lab2_2_tb
+# Loading work.struct_diag
+# Loading work.ct_mod_N
+# Loading work.lcd_int
+# Loading work.alarm
+add wave -position insertpoint sim:/lab2_2_tb/top/*
+run -all
+# buzz = 0  at time                    0
+# buzz = 1  at time                 1000
+# 5':current time before setting:'00000', only 1 day digit, all initial values are 0
+# buzz = 0  at time                 7000
+# 5':current time after setting,'40755', increment day successful
+# display alarm time before setting:'40000', alarm digits does not affect day digit
+# display alarm time after setting:'40801',alarm buzz at 0801
+# display current time after setting alarm
+# buzz = 1  at time               853000
+# Buzz on Friday.
+# buzz = 0  at time               973000
+# 5': Day increase successfully by hours reaching 24
+# buzz = 1  at time            519253000
+# buzz = 0  at time            519373000
+# 5':Buzz on Friday(4), but not on Sat and Sun (5,6), Buzz again on Mon 0.
+# ** Note: $stop    : C:/Users/18758/Documents/GitHub/CSE140_Lab2/lab2/part2/lab2_2_tb.sv(103)
+#    Time: 522418 ns  Iteration: 0  Instance: /lab2_2_tb
+# Break in Module lab2_2_tb at C:/Users/18758/Documents/GitHub/CSE140_Lab2/lab2/part2/lab2_2_tb.sv line 103
+# End time: 10:41:16 on May 08,2023, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 2

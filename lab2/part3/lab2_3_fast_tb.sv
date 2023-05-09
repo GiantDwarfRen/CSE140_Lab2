@@ -21,13 +21,15 @@ module lab2_3_fast_tb #(parameter NS = 60, NH = 24, NW = 7, NM = 12);
 	        Date1disp, Date0disp;
   wire Buzz;
 
+	int h1;
+	h1 = $fopen("output3.txt");
   struct_diag #(.NS(NS), .NH(NH), .NW(NW), .NM(NM)) top(/*.N1disp(Month1disp),.N0disp(Month0disp),
       .T1disp(Date1disp),.T0disp(Date0disp),*/.*); // (.Reset(Reset),....)
 
   initial begin
 	#  2ns  Reset    = 0;
     #  2ns
-    $display("5': before setting. '010100000', Jan 1, ",$time);
+    $fdisplay(h1,"5': before setting. '010100000', Jan 1, ",$time);
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
        .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
@@ -42,14 +44,14 @@ module lab2_3_fast_tb #(parameter NS = 60, NH = 24, NW = 7, NM = 12);
     # 14ns  Dateadv  = 0;   //date: 31
 			Timeset  = 0;
     #  2ns
-    $display("5':after setting,'1231', manually increment date/month successful ",$time);
+    $fdisplay(h1,"5':after setting,'1231', manually increment date/month successful ",$time);
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
       .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
       .seg_i(S0disp));
     #7200ns;    //1 hour
-    $display("5': '010100',passively increment date/month successful, also testing range month 1-12, date from 1 ",$time);
+    $fdisplay(h1,"5': '010100',passively increment date/month successful, also testing range month 1-12, date from 1 ",$time);
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
       .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
@@ -66,8 +68,8 @@ module lab2_3_fast_tb #(parameter NS = 60, NH = 24, NW = 7, NM = 12);
 			Timeset  = 0;
 			  
     #  2ns
-    $display("5'---------------testing mod-----------");
-    $display("testing Feb has 28 days:'0228' ",$time);
+    $fdisplay(h1,"5'---------------testing mod-----------");
+    $fdisplay(h1,"testing Feb has 28 days:'0228' ",$time);
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
       .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
@@ -75,7 +77,7 @@ module lab2_3_fast_tb #(parameter NS = 60, NH = 24, NW = 7, NM = 12);
       .seg_i(S0disp));
 
     #7200ns; //1 hour
-    $display("0301");
+    $fdisplay(h1,"0301");
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
        .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
@@ -91,14 +93,14 @@ module lab2_3_fast_tb #(parameter NS = 60, NH = 24, NW = 7, NM = 12);
     # 12ns  Dateadv = 0; //date: 30
 	   	    Timeset  = 0;
     #  2ns
-    $display("testing April has 30 days: '0430' ",$time);
+    $fdisplay(h1,"testing April has 30 days: '0430' ",$time);
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
       .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
       .seg_i(S0disp));
     repeat(24) #7200ns; //24hours
-    $display("5 points: 0501 ",$time);
+    $fdisplay(h1,"5 points: 0501 ",$time);
     display_2_3_tb (.seg_month1(Month1disp), .seg_month0(Month0disp),
        .seg_date1(Date1disp), .seg_date0(Date0disp),.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),

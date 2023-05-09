@@ -29,7 +29,7 @@ module struct_diag #(parameter NS=60, NH=24, NW = 7)(
 		AMen = (~Timeset && Alarmset && Minadv);
 		AHen = (~Timeset && Alarmset && Hrsadv);
 		Min = (~Alarmset) ? TMin : AMin;
-		Hrs = (~Alarmset) ? THrs : AHrs;
+		Hrs = (~Alarmset) ? THrs : AMin;
 		Day = TDay;
 		TDen = Timeset? Dayadv : (Hzero && Mzero && Szero);
 	end

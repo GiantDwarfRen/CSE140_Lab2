@@ -15,9 +15,6 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
             M1disp, M0disp,
 	        H1disp, H0disp, D0disp;
   wire Buzz;
-  
-  int h1;
-  h1 = $fopen("output2.txt");
 
   struct_diag #(.NS(NS), .NH(NH), .NW(NW)) top(.*); // (.Reset(Reset),....)
 
@@ -25,7 +22,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
     $monitor("buzz = %b  at time %t",Buzz,$time);
 	#  2ns  Reset    = 0;
     #  2ns
-    $fdisplay(h1,"5':current time before setting:'00000', only 1 day digit, all initial values are 0");
+    $display("5':current time before setting:'00000', only 1 day digit, all initial values are 0");
     display_tb (.seg_j(D0disp),.seg_d(H1disp),
     .seg_e(H0disp), .seg_f(M1disp),
     .seg_g(M0disp), .seg_h(S1disp),
@@ -39,7 +36,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
 	#  8ns  Dayadv   = 0; 	  // Dayadv has passed 4
 		    Timeset  = 0;
     #  2ns
-    $fdisplay(h1,"5':current time after setting,'40755', increment day successful");
+    $display("5':current time after setting,'40755', increment day successful");
     display_tb (.seg_j(D0disp),.seg_d(H1disp),
     .seg_e(H0disp), .seg_f(M1disp),
     .seg_g(M0disp), .seg_h(S1disp),
@@ -47,7 +44,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
 
     #  2ns  Alarmset = 1; 
     #  2ns
-    $fdisplay(h1,"display alarm time before setting:'40000', alarm digits does not affect day digit");
+    $display("display alarm time before setting:'40000', alarm digits does not affect day digit");
     display_tb (.seg_j(D0disp),.seg_d(H1disp),    //display the alarm time
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
@@ -57,7 +54,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
 	        Hrsadv   = 0;
 	#  2ns  Minadv   = 0;     // alarm min = 1
     #  2ns
-    $fdisplay(h1,"display alarm time after setting:'40801',alarm buzz at 0801");
+    $display("display alarm time after setting:'40801',alarm buzz at 0801");
     display_tb (.seg_j(D0disp),.seg_d(H1disp),    //display the alarm time
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
@@ -65,7 +62,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
 
 	#  2ns  Alarmset = 0;
     #  2ns  
-    $fdisplay(h1,"display current time after setting alarm");
+    $display("display current time after setting alarm");
     display_tb (.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
@@ -76,7 +73,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
       .seg_g(M0disp), .seg_h(S1disp),
       .seg_i(S0disp));
 	#120ns;             // wait 1 min
-	$fdisplay(h1,"Buzz on Friday.");
+	$display("Buzz on Friday.");
 	display_tb (.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
@@ -87,7 +84,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
       .seg_g(M0disp), .seg_h(S1disp),
       .seg_i(S0disp));
 	repeat(24) #7200ns; // 24 * 1 hour = 1-day delay
-	$fdisplay(h1,"5': Day increase successfully by hours reaching 24");
+	$display("5': Day increase successfully by hours reaching 24");
 	display_tb (.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),
@@ -98,7 +95,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
       .seg_g(M0disp), .seg_h(S1disp),
       .seg_i(S0disp));
     repeat(24) #7200ns; //24hours
-    $fdisplay(h1,"5':Buzz on Friday(4), but not on Sat and Sun (5,6), Buzz again on Mon 0.");
+    $display("5':Buzz on Friday(4), but not on Sat and Sun (5,6), Buzz again on Mon 0.");
 	display_tb (.seg_j(D0disp),.seg_d(H1disp),
       .seg_e(H0disp), .seg_f(M1disp),
       .seg_g(M0disp), .seg_h(S1disp),

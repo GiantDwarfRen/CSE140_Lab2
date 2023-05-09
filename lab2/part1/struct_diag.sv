@@ -27,8 +27,8 @@ module struct_diag #(parameter NS=60, NH=24)(
 		THen = (Timeset && ~Alarmset) ? Hrsadv : (Mzero && Szero);
 		AMen = (~Timeset && Alarmset && Minadv);
 		AHen = (~Timeset && Alarmset && Hrsadv);
-		Min = TMin;
-		Hrs = THrs;
+		Min = (~Alarmset) ? TMin : AMin;
+		Hrs = (~Alarmset) ? THrs : AHrs;
 	end
 
 // free-running seconds counter	-- be sure to set parameters on ct_mod_N modules
