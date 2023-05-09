@@ -1,33 +1,41 @@
+5':current time before setting:'00000', only 1 day digit, all initial values are 0
  _    _   _    _   _  
 | |  | | | |  | | | | 
 |_|  |_| |_|  |_| |_| 
+5':current time after setting,'40755', increment day successful
       _   _    _   _  
 |_|  | |   |  |_  |_  
   |  |_|   |   _|  _| 
+display alarm time before setting:'40000', alarm digits does not affect day digit
       _   _    _   _  
-|_|  | |   |  |_  |_  
-  |  |_|   |   _|  _| 
-      _   _    _   _  
-|_|  | |   |  |_  |_  
-  |  |_|   |   _|  _| 
+|_|  | | | |  | | | | 
+  |  |_| |_|  |_| |_| 
+display alarm time after setting:'40801',alarm buzz at 0801
+      _   _    _      
+|_|  | | |_|  | |   | 
+  |  |_| |_|  |_|   | 
+display current time after setting alarm
       _   _    _   _  
 |_|  | |   |  |_  |_  
   |  |_|   |   _|  _| 
       _   _    _   _  
 |_|  | | |_|  | | | | 
   |  |_| |_|  |_| |_| 
+Buzz on Friday.
       _   _    _      
 |_|  | | |_|  | |   | 
   |  |_| |_|  |_|   | 
       _   _    _   _  
 |_|  | | |_|  | |  _| 
   |  |_| |_|  |_| |_  
+5': Day increase successfully by hours reaching 24
  _    _   _    _   _  
 |_   | | |_|  | |  _| 
  _|  |_| |_|  |_| |_  
  _    _   _    _   _  
 |_   | | |_|  | |  _| 
 |_|  |_| |_|  |_| |_  
+5':Buzz on Friday(4), but not on Sat and Sun (5,6), Buzz again on Mon 0.
  _    _   _    _   _  
 | |  | | |_|  | |  _| 
 |_|  |_| |_|  |_| |_  

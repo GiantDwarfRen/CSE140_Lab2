@@ -16,8 +16,7 @@ module lab2_2_tb #(parameter NS = 60, NH = 24, NW = 7);
 	        H1disp, H0disp, D0disp;
   wire Buzz;
   
-  int h1;
-  h1 = $fopen("output2.txt");
+  int h1 = $fopen("output2.txt");
 
   struct_diag #(.NS(NS), .NH(NH), .NW(NW)) top(.*); // (.Reset(Reset),....)
 
